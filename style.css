@@ -1,0 +1,48 @@
+.h-nav {
+    height: 8vh;
+}
+.outline {
+    outline: 2px solid grey;
+}
+.height-50 {
+    height: 65vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+.btn {
+    color: red;
+}
+.h-30 {
+    height: 27vh;
+}
+.h-60 {
+    height: 70vh;
+}
+.img-h {
+    height: 80%;
+    width: 100%;
+}
+.img-shield {
+    height: 40px;
+}
+.h-star {
+    height: 40px;
+}
+.h-review {
+    height: 60vh;
+}
+.h-5 {
+    height: 20px;
+}
+.h-card {
+    height: 50vh;
+}
+@media only screen and (max-width: 480px){
+.height-50 {
+    height: 65vh;
+    background-image: none ;
+    background-size: cover;
+    
+}
+}
