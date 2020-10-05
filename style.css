@@ -17,7 +17,7 @@
     color: red;
 }
 .h-30 {
-    height: 27vh;
+    height: 29vh;
 }
 .h-60 {
     height: 70vh;
@@ -48,4 +48,9 @@
     background-size: cover;
     
 }
+}
+@media (max-width: 480px) {
+    .txt-hide {
+        display: none;
+    }
 }
