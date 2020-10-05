@@ -18,7 +18,7 @@
         </nav>
         <div class="container-fluid height-50 mt-5">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-3 p-5">
+                <div class="col-12 col-md-6 col-lg-4 p-5">
                     <h4 class="text-white">Subtle Heading</h4>
                     <div class="card bg-white rounded-0">
                         <img class="card-img-top" src="holder.js/100px180/" alt="">
@@ -27,44 +27,55 @@
                                 <div class="col-12">
                                     <h5 text-info>Less Subtle Heading</h5>
                                 </div>
-                                <input type="text" placeholder="Name" value="Marvin">
-                                <div class="col-12 outline p-2">Name</div>
-                                <div class="col-12 outline p-2">Email</div>
-                                <div class="col-6 outline p-2">Phone</div>
-                                <div class="col-6 outline p-2">EXT.</div>
-                                <div class="col-12 outline p-2">Message
+                                <div class="col-12 p-2">
+                                    <input type="text" placeholder="Name" value="Marvin">
                                 </div>
-                                <div class="col-12"> <button>
-                                        <div class="btn-group" data-toggle="buttons">
-                                            <label class="btn btn-info active">
-                                                <input type="checkbox" name="" id="" checked autocomplete="off">
-                                            </label>
-                                            <p>
+                                <div class="col-12 p-2">
+                                    <input type="email" placeholder="Email" value="Marvin@gmail.com">
+                                </div>
+                                <div class="row justify-content-around">
+                                    <div class="col-4 p-2">
+                                        <input type="text" placeholder="phone" value="111-111-1111">
+                                    </div>
+                                    <div class="col-2 p-2">
+                                        <input type="text" placeholder="Ext.">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 p-2">
+                                    <input type="text" placeholder="Message">
+                                </div>
+                                <div class="col-12 border-0"> <button>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultcheck1">
                                                 By checking this box I agree to sell my soul
-                                            </p>
-
+                                            </label>
                                         </div>
-                                    </button>
                                 </div>
-                                <div class="col-5">
-                                    <button class="btn btn-outline-secondary">
-                                        Submit
-                                    </button>
-                                </div>
+                                </button>
                             </div>
-
+                            <div class="col-5">
+                                <button class="btn">
+                                    Submit
+                                </button>
+                            </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="col d-flex flex-column justify-content-center align-items-center">
                     <div class="row justify-content-center align-middle">
                         <div class="col mt-5 d-flex flex-column text-white">
                             <h5>Text on image</h5>
-                            <p>Subtext to show how amazing at coding I am</p>
+                            <i class="fa fa-font-awesome" aria-hidden="true">Subtext to show how amazing at coding I
+                                am</i>
                         </div>
                     </div>
                 </div>
             </div>
+
+        </div>
 
         </div>
     </header>
@@ -105,7 +116,7 @@
                 </div>
             </div>
             <div class="row h-60">
-                <div class="col-3 m-5">
+                <div class="col-12 col-sm-3 m-5">
                     <img class="img-h" src="skele.jpg" alt="">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
@@ -116,13 +127,16 @@
                     <p class="d-flex justify-content-center">
                         Little words underneath big words to show i know things and stuff
                     </p>
+                    <div class="row">
+                        <div class="col offset-right-1 d-flex flex-column align-items-end mb-5 mr-5">
+                            <button class="text-white bg-info btn"> More</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-1 offset-right-1 d-flex flex-column justify-content-end mb-5 mr-5">
-                    <button class="text-white bg-info btn "> More</button>
-                </div>
+
             </div>
             <div class="row align-items-center justify-content-around h-review bg-light m-0 mx-3 p-0">
-                <div class="col-3 bg-white shadow text-center">
+                <div class="col-12 col-md-3 bg-white shadow text-center">
                     <h3 class="text-left m-0 mt-4">"</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi repudiandae quo possimus unde
                         numquam, repellat dolorum pariatur quasi qui voluptatem cumque architecto veritatis dolores enim
@@ -130,7 +144,7 @@
                     <p>Review by <br>
                         Some dude with a computer</p>
                 </div>
-                <div class="col-3 bg-white shadow text-center">
+                <div class="col-12 col-md-3 bg-white shadow text-center">
                     <div class="row justify-content-center">
                         <div class="col-3">
                             <img class="h-star" src="star.png" alt="">
@@ -149,7 +163,7 @@
                     <p>Review by <br>
                         Some dude with a computer</p>
                 </div>
-                <div class="col-3 bg-white shadow text-center">
+                <div class="col-12 col-md-3 bg-white shadow text-center">
 
                     <h3 class="text-left mt-4 mb-0">"</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi repudiandae quo possimus unde
